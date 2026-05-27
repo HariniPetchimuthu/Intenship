@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>login form</title>
     <style>
-        nav{
-            background-color: rgb(50, 170, 170);
-            padding: 10px;
-            box-direction: initial;
+        body {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
-        nav a{
-            color: rgb(204, 198, 198);
-            margin: 10px;
-            text-decoration: none;
+
+        input {
+
+            display: block;
+            margin: 10px 0;
         }
     </style>
 </head>
+
 <body>
-    <nav>
-    <a href="inline.html">Home</a>
-    <a href="internal.html">About</a>
-    <a href="external.html">Contact</a>
-</nav>
+    <form>
+        <input type="text" placeholder="username">
+        <input type="password" placeholder="password">
+        <button>Login</button>
+    </form>
 
 </body>
+
 </html>
